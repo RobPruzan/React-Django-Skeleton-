@@ -1,5 +1,5 @@
 from django.contrib import admin
 from django.urls import include, path
-from .views import UserView
+from .views import UserView, ReactView
 
-urlpatterns = [path("", UserView.as_view())]
+urlpatterns = [path("", ReactView.as_view())]
