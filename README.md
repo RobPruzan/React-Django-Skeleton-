@@ -50,7 +50,7 @@ To start the Django development server, run the following command:
 ```bash
 python manage.py runserver
 ```
-This will start the server at http://127.0.0.1:8000/.
+This will start the server at http://localhost:8000/.
 
 To start the React development server, run the following command in a separate terminal window:
 
@@ -58,7 +58,6 @@ To start the React development server, run the following command in a separate t
 ```bash
 npm run start
 ```
-This will start the server at http://localhost:3000/.
 
 You can now access the application at http://localhost:3000/. Any changes you make to the code will automatically be reflected in the browser.
 
