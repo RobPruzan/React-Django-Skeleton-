@@ -61,5 +61,5 @@ npm run start
 
 You can now access the application at http://localhost:3000/. Any changes you make to the code will automatically be reflected in the browser.
 
-Debugging with Redux DevTools
+## Debugging with Redux DevTools
 To debug the Redux store, you can use the Redux DevTools extension for your browser. This extension allows you to see the state of the store at any point in time, and to revert back to previous states if necessary. Make sure to download the redux extension from the chrome extension store for free.
