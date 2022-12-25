@@ -32,7 +32,7 @@ psql <db_name>
 To confirm the role exists run the following commands and the role should appear
 ```
 psql <db_name>
-\ds
+\du
 ```
 ```bash
 git clone https://github.com/<your-username>/React-Django-Skeleton
