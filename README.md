@@ -1,5 +1,5 @@
 # Django and React Intialized Project
-This repository contains a Django and React project, utilizing the Django Rest Framework for API development and React as the frontend framework. This project also uses Redux for state management, Bootstrap for styling, and has Redux DevTools enabled for debugging.
+This repository/tech stack contains a Django/React/Postgresql project, utilizing the Django Rest Framework for API development and React as the frontend framework. This project also uses Redux for state management, Bootstrap/MaterialUI for styling, and has Redux DevTools enabled for debugging.
 
 ## Getting Started
 ### Prerequisites
@@ -10,7 +10,30 @@ Node.js 12 or newer
 ### Installation
 To get started, clone the repository and navigate to the root directory:
 
-
+### Database 
+Install neccesary dependencies for django postgres intergration (with brew)
+```
+brew install postgresql
+```
+Start up postgres
+```
+brew services start postgresql
+```
+Create db
+```
+createdb <db_name>
+```
+Create user and password
+```
+psql <db_name>
+<db_name>=# CREATE USER <user> WITH PASSWORD '<password>'
+<db_name>=# GRANT ALL PRIVILEGES ON DATABASE postgres TO <user>;
+```
+To confirm the role exists run the following commands and the role should appear
+```
+psql <db_name>
+\ds
+```
 ```bash
 git clone https://github.com/<your-username>/React-Django-Skeleton
 cd React-Django-Skeleton
@@ -33,22 +56,22 @@ cd ..
 cd web
 npm install
 ```
-This will install all the necessary Node.js packages, including Redux, Bootstrap, and the Redux DevTools.
+This will install all the necessary Node.js packages, including Redux, Bootstrap, MaterialUI, and the Redux DevTools.
 
 ## Migrations
 Next, you'll need to run the Django migrations to create the necessary database tables:
 
 
 ```bash
-python manage.py makemigrations
-python manage.py migrate
+python3 manage.py makemigrations
+python3 manage.py migrate
 ```
 ## Running the Server
 To start the Django development server, run the following command:
 
 
 ```bash
-python manage.py runserver
+python3 manage.py runserver
 ```
 This will start the server at http://localhost:8000/.
 
