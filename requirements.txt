@@ -1,3 +1,4 @@
 django
 djangorestframework
 django-cors-headers
+psycopg2
