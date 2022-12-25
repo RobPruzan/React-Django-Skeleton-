@@ -27,7 +27,7 @@ Create user and password
 ```
 psql <db_name>
 <db_name>=# CREATE USER <user> WITH PASSWORD '<password>'
-<db_name>=# GRANT ALL PRIVILEGES ON DATABASE postgres TO <user>;
+<db_name>=# GRANT ALL PRIVILEGES ON DATABASE <db_name> TO <user>;
 ```
 To confirm the role exists run the following commands and the role should appear
 ```
