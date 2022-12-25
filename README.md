@@ -57,6 +57,25 @@ cd web
 npm install
 ```
 This will install all the necessary Node.js packages, including Redux, Bootstrap, MaterialUI, and the Redux DevTools.
+## Django X Postgres
+We need to connect django to our Postrgres DB
+
+To do this navigate to local_settings.py
+From root of the project navigate to backend/backend
+
+Within local_settings.py place your DB information used earlier to create your DB
+```
+DATABASES = {
+    "default": {
+        "ENGINE": "django.db.backends.postgresql_psycopg2",
+        "NAME": "<db_name>",
+        "USER": "<user_name>",
+        "PASSWORD": "<password>",
+        "HOST": "localhost",
+        "PORT": "5432",
+    }
+}
+```
 
 ## Migrations
 Next, you'll need to run the Django migrations to create the necessary database tables:
