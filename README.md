@@ -1,5 +1,5 @@
 # Django and React Intialized Project
-This repository/tech stack contains a Django/React/Postgresql project, utilizing the Django Rest Framework for API development and React as the frontend framework. This project also uses Redux for state management, Tailwind/MaterialUI for styling, and has Redux DevTools enabled for debugging.
+This repository/tech stack contains a Django/React/Postgresql project, utilizing the Django Rest Framework for API development and React as the frontend framework. This project also uses Redux for state management, reaact-query for optimized api queries, Tailwind/MaterialUI for styling, and has Redux DevTools enabled for debugging.
 
 ## Getting Started
 ### Prerequisites
@@ -56,7 +56,7 @@ cd ..
 cd web
 npm install
 ```
-This will install all the necessary Node.js packages, including Redux, Tailwind CSS, MaterialUI, and the Redux DevTools.
+This will install all the necessary Node.js packages, including Redux, React-query, Tailwind CSS, MaterialUI, and the Redux DevTools.
 ## Django X Postgres
 We need to connect django to our Postrgres DB
 
