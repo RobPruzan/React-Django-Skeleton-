@@ -56,7 +56,7 @@ cd ..
 cd web
 npm install
 ```
-This will install all the necessary Node.js packages, including Redux, Bootstrap, MaterialUI, and the Redux DevTools.
+This will install all the necessary Node.js packages, including Redux, Tailwind CSS, MaterialUI, and the Redux DevTools.
 ## Django X Postgres
 We need to connect django to our Postrgres DB
 
