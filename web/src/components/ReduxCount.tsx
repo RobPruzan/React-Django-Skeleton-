@@ -2,7 +2,6 @@ import React, { MouseEvent } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import { CountActions } from '../redux/reducers/count';
 import { RootState } from '../redux/store';
-import { Button } from 'react-bootstrap';
 
 const ReduxCount = () => {
   const count = useSelector(({ countState }: RootState) => countState.count);
@@ -15,10 +14,15 @@ const ReduxCount = () => {
     handleCountDisptch();
   };
   return (
-    <div className="d-flex justify-content-center align-items-center">
-      <label className="mx-5">The count: {count}</label>
-      <Button onClick={handleClick}>Count Me (And try redux devtools!)</Button>
-      <p className="mx-5 my-5">Boostrap margin!</p>
+    <div className="flex flex-col items-center justify-center h-screen bg-gray-100">
+      <label className="text-3xl font-bold underline">The count: {count}</label>
+      <br />
+      <button
+        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+        onClick={handleClick}
+      >
+        Count Me (And try redux devtools!)
+      </button>
     </div>
   );
 };
