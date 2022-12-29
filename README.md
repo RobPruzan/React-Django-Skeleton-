@@ -36,10 +36,6 @@ To confirm the role exists run the following commands and the role should appear
 psql <db_name>
 \du
 ```
-```bash
-git clone https://github.com/<your-username>/React-Django-Skeleton
-cd React-Django-Skeleton
-```
 Next, install the Python dependencies (if you have a virtual enviornment, now is when you should turn it on):
 
 
