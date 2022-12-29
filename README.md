@@ -109,6 +109,3 @@ To debug the Redux store, you can use the Redux DevTools extension for your brow
 ## Debugging with react-query
 React-querys devtools is implemented as a component, so no install is required to start debugging! You should see a flower at the bottom left of your page, and when clicking, this panel should show
 ![image](https://user-images.githubusercontent.com/97781863/209912435-927598a9-4a6f-488c-be29-01025409cb68.png)
-
-React-querys devtools is implemented as a component, so no install is required to start debugging!
-
