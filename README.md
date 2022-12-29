@@ -8,7 +8,8 @@ Before you begin, make sure you have the following software installed on your co
 Python 3.6 or newer
 Node.js 12 or newer
 ### Installation
-To get started, clone the repository and navigate to the root directory:
+1. To get started, clone the repository OR create a new repository with this repository imported 
+2. Navigate to the root directory:
 
 ### Database 
 Install neccesary dependencies for django postgres intergration (using brew)
