@@ -1,5 +1,5 @@
 # Django and React Intialized Project
-This repository/tech stack contains a Django/React/Postgresql project, utilizing the Django Rest Framework for API development and React as the frontend framework. This project also uses Redux for state management, reaact-query for optimized api queries, Tailwind/MaterialUI for styling, and has Redux DevTools enabled for debugging.
+This repository/tech stack contains a Django/React/Postgresql project, utilizing the Django Rest Framework for API development and React as the frontend framework. This project also uses Redux for state management, reaact-query for optimized api queries, Tailwind/MaterialUI for styling, and has Redux DevTools + React-Query DevTools enabled for debugging.
 
 ## Getting Started
 ### Prerequisites
@@ -11,7 +11,8 @@ Node.js 12 or newer
 To get started, clone the repository and navigate to the root directory:
 
 ### Database 
-Install neccesary dependencies for django postgres intergration (with brew)
+Install neccesary dependencies for django postgres intergration (using brew)
+- If you don't have/use brew, head over to the postgres docs and install the latest version for your machine/OS, and refer to it for commands on how to start/stop/restart the server- https://www.postgresql.org/docs/ 
 ```
 brew install postgresql
 ```
@@ -38,7 +39,7 @@ psql <db_name>
 git clone https://github.com/<your-username>/React-Django-Skeleton
 cd React-Django-Skeleton
 ```
-Next, install the Python dependencies:
+Next, install the Python dependencies (if you have a virtual enviornment, now is when you should turn it on):
 
 
 ```bash
@@ -60,8 +61,7 @@ This will install all the necessary Node.js packages, including Redux, React-que
 ## Django X Postgres
 We need to connect django to our Postrgres DB
 
-To do this navigate to local_settings.py
-From root of the project navigate to backend/backend
+To do this navigate to local_settings.py (this is located in the backend directory, right under the root directory of the project)
 
 Within local_settings.py place your DB information used earlier to create your DB
 ```
