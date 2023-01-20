@@ -1,5 +1,5 @@
 # Django and React Intialized Project
-This repository/tech stack contains a Django/React/Postgresql project, utilizing the Django Rest Framework for API development and React as the frontend framework. This project also uses Redux for state management, react-query for optimized api queries, Tailwind/MaterialUI for styling, and has Redux DevTools + React-Query DevTools enabled for debugging.
+This repository/tech stack contains a Django/React/Postgresql project, utilizing the Django Rest Framework for API development and React/Create React App as the frontend framework. This project also uses Redux for state management, react-query for optimized api queries, Tailwind/MaterialUI for styling, and has Redux DevTools + React-Query DevTools enabled for debugging.
 
 ## Getting Started
 ### Prerequisites
