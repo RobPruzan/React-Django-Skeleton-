@@ -1,8 +1,5 @@
-import React from 'react';
-import ReduxCount from './ReduxCount';
-
 const MainPage = () => {
-  return <ReduxCount />;
+  return <>Hello</>;
 };
 
 export default MainPage;
